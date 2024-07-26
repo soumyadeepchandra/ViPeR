@@ -36,25 +36,31 @@ python ./Dataset/csv_to_txt_gt.py
 ```
 Ground Truth Folder: (./Dataset/groundTruth)
 
-5. Run python ./Feature_extractor/resnet_feature.py to train the Feature Extractor. 
+5. To train the Feature Extractor.
+```python
+Run python ./Feature_extractor/resnet_feature.py
+```
 The model weight is saved into ./models_feature/*.pth
 
-6. Run python ./Feature_extractor/datasets_npy_using_resnet.py to use the saved_model to generate the .npy feature of each video in [Video Folder]: (./ViTALS/Dataset/videos). 
+6. To use the saved_model to generate the .npy feature of each video in [Video Folder]: (./ViTALS/Dataset/videos).
+```python
+ python ./Feature_extractor/datasets_npy_using_resnet.py
+```
 
 ## Train your own model
-7. Run to train model:
+7. To train model:
    ```python
    python ./Action_Segmnt/main.py --action train --split 1
    ```
 
 ## Use Pretrained weights
-8. Run to generate predicted results for split:
+8. To generate predicted results for split:
    ```python
    python ./Action_Segment/main.py --action predict --split 1
    ```
 
 ## Evaluating the model
-9. Run to evaluate the performance:
+9. To evaluate the performance:
    ``` python
    python ./Action_Segment/eval.py --split 1
    ```
