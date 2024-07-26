@@ -4,8 +4,8 @@ This repository contains code for the paper
 # Abstract 
 Surgical phase recognition poses a significant challenge in computer vision, with promising applications such as automated surgery procedure training and workflow optimization. However, designing an appropriate model is crucial for tackling this task, especially given the lack of suitable medical datasets. To that end, in this work, we introduce UroSlice, a new complex dataset of nephrectomy surgeries. To address the task of phase recognition in these videos, we propose a novel model named ‘ViPeR’ (Vision-based Surgical Phase Recognition). Our model incorporates hierarchical dilated temporal convolution layers and inter-layer residual connections to capture temporal correlations at both fine and coarse granularities. Experimental results demonstrate that our approach achieves state-of-the-art performance on both the publicly available Cholec80 and in-house UroSlice datasets (89.8% and 66.1% accuracy, respectively), thereby validating its effectiveness.
 
-![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/model_pipeline.png?raw=true)
-![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/enc_dec.png?raw=true)
+![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/model_pipeline.jpg?raw=true)
+![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/enc_dec.jpg?raw=true)
 
 ## Enviroment
 Pytorch == 2.0.1, 
