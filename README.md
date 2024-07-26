@@ -1,8 +1,8 @@
-# ViTALS: Vision Transformer for Action Localization in Surgical Nephrectomy
+# ViPeR: Vision-based Surgical Phase Recognition
 This repository contains code for the paper
 
 # Abstract 
-Surgical action localization is a challenging computer vision problem. While it has promising applications including automated training of surgery procedures, surgical workflow optimization, etc., appropriate model design is pivotal to accomplishing this task. Moreover, the lack of suitable medical datasets adds an additional layer of complexity. To that effect, we introduce a new complex dataset of nephrectomy surgeries called UroSlice. To perform the action localization from these videos, we propose a novel model termed as ‘ViTALS’ (Vision Transformer for Action Localization in Surgical Nephrectomy). Our model incorporates hierarchical dilated temporal convolution layers and inter-layer residual connections to capture the temporal correlations at finer as well as coarser granularities. The proposed approach achieves state-of-the-art performance on Cholec80 and UroSlice datasets (89.8% and 66.1% accuracy, respectively), validating its effectiveness.
+Surgical action localization is a challenging computer vision problem. While it has promising applications including automated training of surgery procedures, surgical workflow optimization, etc., appropriate model design is pivotal to accomplishing this task. Moreover, the lack of suitable medical datasets adds an additional layer of complexity. To that effect, we introduce a new complex dataset of nephrectomy surgeries called UroSlice. To perform the action localization from these videos, we propose a novel model termed as ‘ViPeR’ (Vision-based Surgical Phase Recognition). Our model incorporates hierarchical dilated temporal convolution layers and inter-layer residual connections to capture the temporal correlations at finer as well as coarser granularities. The proposed approach achieves state-of-the-art performance on Cholec80 and UroSlice datasets (89.8% and 66.1% accuracy, respectively), validating its effectiveness.
 
 
 ## Enviroment
