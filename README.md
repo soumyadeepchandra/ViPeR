@@ -42,13 +42,22 @@ The model weight is saved into ./models_feature/*.pth
 6. Run python ./Feature_extractor/datasets_npy_using_resnet.py to use the saved_model to generate the .npy feature of each video in [Video Folder]: (./ViTALS/Dataset/videos). 
 
 ## Train your own model
-7. Run "python ./Action_Segment/main.py --action train --split 1"  to train model.
+7. Run to train model:
+   ```python
+   python ./Action_Segmnt/main.py --action train --split 1
+   ```
 
 ## Use Pretrained weights
-8. Run "python ./Action_Segment/main.py --action predict --split 1" to generate predicted results for split.
+8. Run to generate predicted results for split:
+   ```python
+   python ./Action_Segment/main.py --action predict --split 1
+   ```
 
 ## Evaluating the model
-9. Run "python ./Action_Segment/eval.py --split 1 to evaluate the performance.
+9. Run to evaluate the performance:
+   ``` python
+   python ./Action_Segment/eval.py --split 1
+   ```
 
 
-Feel free to raise a issue if you got trouble with our code.
+Feel free to raise an issue if you have trouble with our code.
