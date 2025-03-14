@@ -19,7 +19,7 @@ pip install -r environment.txt
 ```
 ## Datasets used
 1. Cholec80: [http://camma.u-strasbg.fr/datasets]
-2. UroSlice: Will be released post-acceptance
+2. UroSlice: [https://tinyurl.com/232s2j6m]
 
 ## Reproduce our results
 1. Download the dataset data.zip (Cholec80 / any other dataset). 
