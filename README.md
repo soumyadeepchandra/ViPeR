@@ -71,6 +71,6 @@ The model weight is saved into ./models_feature/*.pth
 
 Feel free to raise an issue if you have trouble with our code.
 
-##Supplementary Result:
+## Supplementary Result:
 [Video](https://bit.ly/3FdBFnZ)
 ![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/Supplementary.jpg?raw=true)
