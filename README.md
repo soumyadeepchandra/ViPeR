@@ -71,4 +71,5 @@ The model weight is saved into ./models_feature/*.pth
 
 Feel free to raise an issue if you have trouble with our code.
 
-Supplementary Result [Video](https://bit.ly/3FdBFnZ)
+##Supplementary Result:
+[Video](https://bit.ly/3FdBFnZ)
