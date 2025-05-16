@@ -18,8 +18,8 @@ Install the required dependencies:
 pip install -r environment.txt
 ```
 ## Datasets used
-1. Cholec80: [http://camma.u-strasbg.fr/datasets]
-2. UroSlice: [https://tinyurl.com/232s2j6m]
+1. [Cholec80](http://camma.u-strasbg.fr/datasets)
+2. [UroSlice](https://bit.ly/43kvqqs)
 
 ## Reproduce our results
 1. Download the dataset data.zip (Cholec80 / any other dataset). 
@@ -70,3 +70,5 @@ The model weight is saved into ./models_feature/*.pth
 
 
 Feel free to raise an issue if you have trouble with our code.
+
+Supplementary Result [Video](https://bit.ly/3FdBFnZ)
