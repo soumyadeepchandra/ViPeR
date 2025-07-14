@@ -75,3 +75,21 @@ Feel free to raise an issue if you have trouble with our code.
 [Prediction Video](https://bit.ly/3FdBFnZ): Snippets from the entire timeline of predictions for a surgical video of cholecystectomy, illustrating both correct and incorrect predictions.
 
 ![alt text](https://github.com/soumyadeepchandra/ViPeR/blob/main/Supplementary.jpg?raw=true)
+
+
+## Citation
+
+If you find our codes or paper useful, please consider giving us a star or cite with:  
+
+```
+@ARTICLE{11078244,
+  author={Chandra, Soumyadeep and Chowdhury, Sayeed Shafayet and Yong, Courtney and Jeng, Ginnie and Mahenthiran, Ashorne and Morris, Kostantinos E. and Love, Harrison L. and Sundaram, Chandru P. and Roy, Kaushik},
+  journal={IEEE Access}, 
+  title={ViPeR: Vision-based Surgical Phase Recognition}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Surgery;Videos;Feature extraction;Convolution;Training;Hidden Markov models;Decoding;Vectors;Iron;Transformers;Surgical Phase Recognition;Surgical Workflow Segmentation;Nephrectomy Surgery;Supervised Learning;Video-Based Surgical Analysis},
+  doi={10.1109/ACCESS.2025.3588428}}
+```
