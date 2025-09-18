@@ -19,7 +19,7 @@ pip install -r environment.txt
 ```
 ## Datasets used
 1. [Cholec80](http://camma.u-strasbg.fr/datasets)
-2. [UroSlice]((https://purdue0-my.sharepoint.com/personal/chand133_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchand133%5Fpurdue%5Fedu%2FDocuments%2FUroSlice%20Dataset&ga=1)s)
+2. [UroSlice](https://purdue0-my.sharepoint.com/personal/chand133_purdue_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchand133%5Fpurdue%5Fedu%2FDocuments%2FUroSlice%20Dataset&ga=1)
 
 ## Reproduce our results
 1. Download the dataset data.zip (Cholec80 / any other dataset). 
